@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Acerto</title>
+    <link rel="stylesheet" href="Index.css">
+</head>
+<body>
+    <section class="presentation">
+        <h1>Jogo da Sorte</h1>
+        <p>Jogo desenvolvido para testar sua sorte, deve ser encontrado o item.</p>
+        <button onclick="shufflecards()">Embralhar</button>
+    </section>
+
+    <!-- Contêiner de Cards -->
+    <div class="Card-container">
+        <!-- Card 1 -->
+        <div class="Card" id="card">
+            <div class="card-face front">
+                <h3>Tente sua sorte</h3>
+            </div>
+            <div class="card-face back">
+                <img src="img/simbolo-de-botao-de-alerta-de-erro_24877-83749.avif" alt="Verso do card">
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="Card">
+            <div class="card-face front">
+                <h3>Tente sua sorte</h3>
+            </div>
+            <div class="card-face back">
+                <img src="img/simbolo-de-botao-de-alerta-de-erro_24877-83749.avif" alt="Verso do card">
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="Card" id="correct-card">
+            <div class="card-face front">
+                <h3>Tente sua sorte</h3>
+            </div>
+            <div class="card-face back">
+                <img src="img/244df9002e22b2f786f5cb738e872ace.jpg" alt="Verso do card">
+            </div>
+        </div>
+    </div>
+
+    <script src="Index.js"></script>
+</body>
+</html>
